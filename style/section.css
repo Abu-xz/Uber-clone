@@ -1,0 +1,81 @@
+.section-wrapper {
+  padding: 50px 180px 20px;
+  display: flex;
+}
+
+.image-block {
+  width: 558px;
+  overflow: hidden;
+}
+
+.image-block img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-content {
+  padding: 120px 10px 140px 140px;
+}
+
+.content-margin {
+  padding: 120px 140px 140px 10px;
+}
+
+.section-head {
+  font-size: 52px;
+  margin-bottom: 30px;
+}
+.section3-head {
+  font-size: 36px;
+  margin-bottom: 30px;
+
+}
+
+.section-para {
+  color: rgba(0, 0, 0, 0.695);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.start-btn {
+  padding: 15px 25px;
+  background-color: black;
+  color: white;
+  font-family: uber-font;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.section-buttons {
+  display: flex;
+}
+
+.account-btn {
+  background-color: white;
+  border: none;
+}
+
+.account-span {
+  padding: 10px 0 5px 0;
+  color: rgba(0, 0, 0, 0.695);
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.323);
+  transition: 1s;
+}
+
+.account-span:hover {
+  transition: ease-in-out;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.793);
+}

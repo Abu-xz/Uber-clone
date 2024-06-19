@@ -1,0 +1,14 @@
+
+@font-face {
+    font-family: 'uber-font';
+    src: url('/font/UberMove-Light.ttf') format('ttf');
+}
+
+*{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-family:'uber-font', Arial, Helvetica, sans-serif;
+}

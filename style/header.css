@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 5px 0;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding-left: 90px ;
+
+}
+
+.logo{
+    margin-right:  10px;
+    
+}
+
+.nav-buttons{
+    display: flex;
+    padding-bottom:8px ;
+ 
+}
+
+.nav-btn{
+    transition: 0.4s;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 5px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.nav-btn:hover{
+    background-color: rgb(55, 54, 54);
+}
+
+.nav-btn img{
+    margin: 0 6px;
+}
+
+.right-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right:120px ;
+}
+
+.user-assist-btns{
+    display: flex;
+}
+
+.lang-btn,
+.assist-btn,
+.signup-btn{
+    transition: 0.4s;
+    margin: 0 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;   
+}
+
+.h-btn:hover{
+    background-color: rgb(55, 54, 54);
+}
+
+.lang-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lang-btn img{
+    margin: 0 5px;
+}
+
+.signup-btn{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding:0 15px ;
+    font-size: 15px;
+    font-weight:500 ;
+
+}
+

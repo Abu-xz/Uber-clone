@@ -1,0 +1,150 @@
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+}
+
+.footer-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 10px;
+}
+
+.uber-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-uber {
+  font-size: 24px;
+  line-height: 112px;
+  font-family: "uber-font";
+}
+
+.footer-span {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 80px;
+}
+
+/*---------- block 2 start--------- */
+
+.block-2 {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.company,
+.products,
+.global,
+.travel {
+  display: flex;
+  width: 265px;
+  cursor: pointer;
+  align-items: flex-start;
+  flex-direction: column;
+  font-family: "uber-font";
+}
+
+.company p,
+.products p,
+.global p,
+.travel p {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+.foot-spa {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.footer-contents {
+  display: flex;
+  flex-direction: column;
+}
+
+/* -------------- block 3  start-------------- */
+
+.block-3 {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-contianer{
+  height: 30px;
+  display: flex ;
+  align-items: center;
+}
+
+.social-icon{
+  width: 110px;
+}
+
+.lang-loc button{
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.lang-loc span{
+  font-size:14px; 
+  font-weight: 500;
+}
+
+
+/* ------------------- block - 4 start ------------------------- */
+
+.image-block{
+  margin: 30px 0;
+    display: flex;
+}
+  
+
+/* ------------------- block - 5 start ------------------------- */
+
+
+.footer-end{
+  color: rgb(175, 175, 175);
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.copyright{
+  text-align: center;
+}
+
+.terms-privacy{
+  display: flex;
+}
+
+.terms-privacy p {
+  margin-right:30px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
