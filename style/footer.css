@@ -19,7 +19,6 @@ footer {
 .footer-uber {
   font-size: 24px;
   line-height: 112px;
-  font-family: "uber-font";
 }
 
 .footer-span {
@@ -46,7 +45,6 @@ footer {
   cursor: pointer;
   align-items: flex-start;
   flex-direction: column;
-  font-family: "uber-font";
 }
 
 .company p,
